@@ -7,7 +7,8 @@ let age = 22
 let isLoggedIn = false
 
 // number => 2 to power 53
-// biginit
+// biginit =  exceeding the limits of the standard Number type.
+
 // string is used in single or double quotes also
 // boolean => true or false
 // null => standalone value , u can asign null
@@ -18,4 +19,4 @@ let isLoggedIn = false
  
 
 console.log(typeof null)     // object
-console.log(typeof undefined)   
+console.log(typeof undefined)   //undefined
