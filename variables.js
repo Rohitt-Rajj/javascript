@@ -11,7 +11,7 @@ var accountPassword = "12345"
 accountCity = "jaipur"
 // u can declare a variable like also but do not use.
 
-let accountState;
+let accountState;   // undeifined 
 
 accountEmail = "hshd@gmsil.com"
 accountPassword = "544662"
