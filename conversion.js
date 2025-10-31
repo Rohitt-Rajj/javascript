@@ -25,4 +25,43 @@ console.log(strigNumber);
 console.log(typeof strigNumber);
 
 
+// **********************************  operations **************************************
+
+
+let value = 3
+let negValue = -value;
+console.log(negValue);
+
+
+console.log(2 + 2);
+console.log(2 - 2);
+console.log(2 / 2);
+console.log(2 * 2);
+
+
+let str1 = "hello"
+let str2 = " rohit"
+
+let str3 = str1 + str2
+console.log(str3);
+
+
+
+console.log("1" + 2);  // 12
+console.log(("1" + 2+2));  //122
+console.log((3 + 1 + "1"));  //41
+// if string is first then all treated as a string
+
+console.log(+true); // 1 
+
+let scoreGame = 101 
+scoreGame++;
+++scoreGame
+console.log(scoreGame);
+
+
+
+
+
+
 
