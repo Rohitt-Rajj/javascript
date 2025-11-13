@@ -14,7 +14,8 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-// both are the way to declRE  a function
+// both are the way to declare  a function
+
 
 console.log(addone(5))      // here you can print function before assigning
 
