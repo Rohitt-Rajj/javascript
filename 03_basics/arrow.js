@@ -67,6 +67,12 @@ console.log(addTwo(2,3));
 
 
 
-const addTwo  = (num1,num2) => num1+num2;
+/*
++++++++++++++++++++++++++++++++++  Implicit function   ++++++++++++++++++++++++++++++++++++++++++
+if u use {} bracket then u have to use return function
+
+const addTwo  = (num1,num2) => (num1+num2);
 console.log(addTwo(3,4));
+*/
+
 
