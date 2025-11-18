@@ -37,6 +37,15 @@ console.log(calculatecartPrice(100,200,300));
 
 
 
+
+function calculatecartPrice(nums1){  //  this is also the way to print 100,200,300
+    return nums1
+
+}
+console.log(calculatecartPrice([100,200,300]));
+
+
+
 const userDetails = {
     username: "Rohit",
     age: 21
@@ -58,3 +67,4 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
