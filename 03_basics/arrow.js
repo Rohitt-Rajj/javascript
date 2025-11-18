@@ -4,7 +4,7 @@ const user = {
 
     WelcomeMessage : function(){
         console.log(` ${this.username} , Welcome to our website`);
-        console.log(this)
+        console.log(this)    //this refers to the current object that is calling the function
         
     }
 }
@@ -35,7 +35,7 @@ chai();
 /*
 const chai = function(){            // you can use function also like this 
     let username = "Rohit singh"
-   console.log(this.username);
+   console.log(this.username);      //this refers to the current object that is calling the function
 }
 chai()
 
@@ -45,7 +45,10 @@ chai()
 
 
 
+
 /*
+this is arrow function => Arrow function is a shorter way of writing functions.
+
 const chai =  () => {
     let username = "hitesh"
     console.log(this);
