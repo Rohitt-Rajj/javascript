@@ -1,5 +1,10 @@
-"use strict";  // treat all the js code as newer version
+/*
 
+"use strict";  
+treat all the js code as newer version , Stops accidental global variables
+Prevents duplicate variable or function names(let a = 1;   let a = 2;  are not allowed)
+
+*/
 // alert(3 + 3)  we are using node js not browser
 
 let name = "Rohit"
