@@ -1,3 +1,12 @@
+/*
+var:-  Function scoped, Can redeclare ,Can update, Avoid using, Hoisted
+
+let:-  Block scoped, Cannot redeclare, Can update, Best for changing values
+
+const:- Block scoped, Cannot redeclare , Cannot update , Best for fixed values
+
+*/
+
 let score = "33"
 console.log(typeof score)
 
