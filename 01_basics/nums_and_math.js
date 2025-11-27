@@ -6,7 +6,7 @@ console.log(score);
 
 const balance = new Number(100)
 console.log(balance);
-console.log(typeof(balance));
+console.log(typeof(balance));  // return object
 
 console.log(balance.toString().length);
 console.log(balance.toFixed(2));   //fixed to 2 decimal digit
