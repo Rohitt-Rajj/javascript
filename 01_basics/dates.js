@@ -14,7 +14,7 @@ let myCreatedDate = new Date("01-14-2023")
 // console.log(myCreatedDate.toLocaleString());
 
 
-let myDate = new Date()
+let myDates = new Date()
 console.log(myDate.toString());
 console.log(myDate.toDateString());
 console.log(myDate.toLocaleDateString());
