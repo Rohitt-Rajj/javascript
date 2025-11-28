@@ -47,7 +47,7 @@ chai()
 
 
 /*
-this is arrow function => Arrow function is a shorter way of writing functions.
+this is arrow function => Arrow function is a shortest way of writing functions.
 
 const chai =  () => {
     let username = "hitesh"
@@ -62,7 +62,7 @@ chai()
 
 
 /*
-const addTwo  = (num1,num2) =>{  // this is called arrow function =>
+const addTwo  = (num1,num2) =>{        
     return num1+num2
 }
 console.log(addTwo(2,3));
