@@ -1,5 +1,5 @@
 //  {} is known as Scope
-// avoid var because it is 
+// avoid var because it is globle and old version , it can gives u error 
 
 
 //var c = 300
@@ -22,8 +22,6 @@ console.log(addone(5))      // here you can print function before assigning
 function addone(num){
     return num + 1
 }
-
-
 
 
 //  console.log(addTwo(5))   you can not access this before assinging the function like this
