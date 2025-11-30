@@ -209,9 +209,7 @@ document.getElementById("heading").innerText = "Welcome Rohit!";
 
 This line **changes your HTML using DOM**.
 
----
 
-```
 
 
 
