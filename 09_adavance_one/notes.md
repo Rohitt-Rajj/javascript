@@ -1,5 +1,4 @@
-```markdown
-# ⭐ JavaScript Summary: try, catch, fetch
+
 
 ## 🔹 try
 - Used to run code that **might cause an error**
