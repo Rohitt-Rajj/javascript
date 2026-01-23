@@ -1,7 +1,7 @@
 const accountId = 12345        
 // const  declare a constant variable, its value cannot be reassigned after its initial declaration.
 
-let accountEmail = "ranarohitsingh@gmail.com"
+let accountEmail = "ranarohit.example@gmail.com"
 // let have Block Scope
 
 var accountPassword = "12345"
