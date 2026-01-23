@@ -14,7 +14,7 @@ console.log(undefined < 0);
 
 /// ===  check data type also
 
-console.log("2" === 2); //false 
+console.log("2" === 2); //false     (===) this always chek the datatype 
 
 
 
