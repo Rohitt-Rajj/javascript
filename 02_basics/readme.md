@@ -1,4 +1,4 @@
-#                           📚 JavaScript Arrays & Objects 
+#                       📚              JavaScript Arrays & Objects 
 
 <div align="center">
 

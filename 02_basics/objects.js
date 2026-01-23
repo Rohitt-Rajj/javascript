@@ -12,7 +12,7 @@ const jsuser = {
     "full name" : "Rohit Raj",
     age : 22,
     location: "phagwara",
-    email : "rohitsingh@gmail.com",
+    email : "example@gmail.com",
     lastLoginDays : ["monday","saturday"],
     [mysym] : "mykey1"
 }
@@ -21,10 +21,10 @@ console.log(jsuser["name"]);  // u have access like this ["name"]  bcz js taking
 console.log(jsuser["full name"]);  // u can only acess by using [brackets]
 console.log(jsuser[mysym]);  //output -> mykey1 
 
-jsuser.email = "rohit.com"
+jsuser.email = "example.com"
 console.log(jsuser["email"])
 Object.freeze(jsuser[email])
-jsuser.email = "rohitraj.com"
+jsuser.email = "example.com"
 console.log(jsuser["email"])
 
 
