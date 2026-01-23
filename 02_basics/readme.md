@@ -1,4 +1,4 @@
-#                       📚              JavaScript Arrays & Objects 
+# 📚 JavaScript Arrays & Objects 
 
 <div align="center">
 
@@ -468,15 +468,6 @@ const users = [
 - [Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Object Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
-### 🎥 Video Tutorials
-- JavaScript Array Masterclass
-- Objects in Depth - JavaScript
-- Advanced Array Methods
-
-### 📖 Practice Platforms
-- LeetCode Array Problems
-- HackerRank Data Structures
-- Codewars JavaScript Challenges
 
 ---
 
