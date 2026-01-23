@@ -1,4 +1,13 @@
-//  Primitive
+/*
+A data type in JavaScript is an attribute of data that defines the kind of values a variable
+ can hold and how those values behave in a program
+
+
+ There are two types of data types 
+  Primitive -< numeric and non numeric 
+  Non-Primitive 
+*/
+
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
