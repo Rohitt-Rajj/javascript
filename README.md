@@ -1,5 +1,3 @@
-# javascript
-
 
 
 # 🚀 JavaScript Learning Journey with Chai aur Code
