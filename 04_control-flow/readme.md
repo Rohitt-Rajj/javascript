@@ -500,20 +500,5 @@ const config = {
 
 </div>
 
----
 
-## 📚 Additional Resources
 
-### Recommended Learning:
-- [MDN Control Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
-- [JavaScript.info - Logical Operators](https://javascript.info/logical-operators)
-- [Eloquent JavaScript - Program Structure](https://eloquentjavascript.net/02_program_structure.html)
-
-### Practice Problems:
-- [LeetCode - Control Flow Problems](https://leetcode.com/problemset/all/?topicSlugs=conditional-statements)
-- [HackerRank - JavaScript Challenges](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)
-- [Edabit - JavaScript Exercises](https://edabit.com/challenges/javascript)
-
----
-
-**Happy Coding! Remember: Clean conditionals lead to predictable code.** 💻✨
