@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+
+</head>
+<body class="bg-black">
+    <div>
+    <h1 id = "First" onclick="handleClick()">Hi this is Rohit Singh Rajput</h1>
+    </div>
+
+    <script>
+        const element = document.getElementById("First");
+        /*      // 01_Method.....
+
+            function handleClick(){
+        const element = document.getElementById("First");
+        element.textContent = "I am from Bihar";
+}         
+    */
+
+/*          // 02_Method... 
+            // we can not use this method bcz it overwrite 
+
+        const element = document.getElementById("First");
+        element.onclick = function handleClick(){
+            element.textContent = "I am from Bihar";
+        }
+
+*/  
+
+
+/*       // double click to change the text
+
+            element.addEventListener('dblclick', () => {
+            element.textContent = "I am From Bihar";
+        });
+
+            element.addEventListener('dblclick', () => {
+            element.style.background = "Brown";
+        });
+
+*/
+
+
+/*        // when mouse pointer is enter then it change the text.....
+
+        element.addEventListener('mouseenter', () => {
+        element.textContent = "I am From Bihar";
+        });
+
+*/
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
