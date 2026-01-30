@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Learnings</title>
+     <style>
+        .bg-black {
+            background-color: #212121; /* Dark background */
+            color: white; /* White text */
+            padding: 20px;
+        }
+        
+        .heading {
+            color: #fff; /* Initial white color */
+        }
+        .submit{
+            background: white;
+            font-size: large;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li class="list-item">One</li>
+            <li class="list-item">Two</li>
+            <li class="list-item">three</li>
+        </ul>
+    </div>
+    <div>
+        <Button class="submit">click here for submit</Button>
+
+    </div>
+    <script>
+    // Change content dynamically
+  
+   document.getElementById('title').textContent = 'update titile';
+  const title=document.getElementById('title').style.color = 'yellow'
+
+  /*
+  const item = document.getElementsByClassName('list-item');
+  item[0].style.color='red'
+*/
+
+document.querySelectorAll('.list-item').forEach(item => {
+    item.style.color='red';
+})
+
+  const button = document.querySelector('.submit');
+
+// Add event listener
+button.addEventListener('click', function(event) {
+    console.log(button);
+    alert("Submitted");
+
+    console.log('Button clicked!');
+    console.log('Event:', event);
+    console.log('Target:', event.target);
+});
+  
+    
+</script>
+</body>
+</html>
